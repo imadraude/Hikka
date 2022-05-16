@@ -119,7 +119,7 @@ class HikkaInfoMod(loader.Module):
             "title": self.strings("send_info"),
             "description": self.strings("description"),
             "message": self._render_info(),
-            "thumb": "https://github.com/hikariatama/Hikka/raw/master/assets/hikka_pfp.png",
+            "thumb": "https://share.creavite.co/ognOW0reOmCrpCFs.gif",
             "reply_markup": {
                 "text": self.config["custom_button"].split("|")[0],
                 "url": self.config["custom_button"].split("|")[1],
