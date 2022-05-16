@@ -119,7 +119,7 @@ class HikkaInfoMod(loader.Module):
             "title": self.strings("send_info"),
             "description": self.strings("description"),
             "message": self._render_info(),
-            "thumb": "https://share.creavite.co/ognOW0reOmCrpCFs.gif",
+            "thumb": "https://github.com/hikariatama/Hikka/raw/master/assets/hikka_pfp.png",
             "reply_markup": {
                 "text": self.config["custom_button"].split("|")[0],
                 "url": self.config["custom_button"].split("|")[1],
@@ -136,7 +136,7 @@ class HikkaInfoMod(loader.Module):
                 "text": self.config["custom_button"].split("|")[0],
                 "url": self.config["custom_button"].split("|")[1],
             },
-            photo="https://i.imgur.com/qW1j9U6.jpeg",
+            photo="https://share.creavite.co/ognOW0reOmCrpCFs.gif",
         )
 
     @loader.unrestricted
